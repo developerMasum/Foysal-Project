@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.banner-section {
+  
+  position: relative;
+ height: 300px;
+  margin-bottom: 80px;
+}
+
+.banner-image {
+  width: 100%;
+  height: 550px;
+
+  background-image: url("./img/image\ 248.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.banner-text {
+  font-size: 90px;
+  margin-bottom: 10px;
+  color: #ffc116;
+  font-family: "Amatic SC", cursive;
+}
+.locations {
+  display: flex;
+  flex-direction: row;
+ 
+  gap: 18px;
+}
+.locations a {
+  text-decoration: underline;
+  color: #442816;
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}

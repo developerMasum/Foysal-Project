@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.banner-section {
+  position: relative;
+  font-family: "Amatic SC", cursive;
+
+  height: 300px;
+  margin-bottom: 80px;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/banner\ -\ about\ us.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.banner-text {
+  font-size: 100px;
+  margin-bottom: 10px;
+  color: #ffc116;
+}
+/* details section */
+.details-text {
+
+  font-family: "Quicksand", sans-serif;
+  color: #442816;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 50px;
+}
+.text {
+  letter-spacing: 0em;
+}
+/* founder section  */
+.details{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.founder-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  color: #4bc2d4;
+}
+
+.founder-line {
+  color: #ffc116;
+  border-top: 5px solid #ffc116;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+/* 2 card */
+/* CSS for the rating section */
+.rating-section{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.rating-card {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    padding: 20px;
+    margin-bottom: 10px; 
+    border-radius: 8px;
+    
+  
+   
+  }
+
+
+.rating-card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+   
+    
+
+}
+.founder-name{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #442816;
+    
+}
+.founder-job-title{
+    font-size: 13px;
+top: 0;
+    color: #442816;
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .banner-text {
+    font-size: 60px;
+  }
+  .details-text {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .rating-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .rating-card {
+    width: 80%;
+  }
+}
